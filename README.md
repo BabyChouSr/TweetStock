@@ -11,7 +11,9 @@ Uses Twitter API for web scraping and Yahoo Finance stock prices for training da
   <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/neutralwordcloud.png" width = "250" height = "250">
 </p>
 <p float = "left">
-      <emPositive Words</em>
+      <em> Positive Words</em>
+  <em> Negative Words</em>
+  <em> Neutral Words</em>
   </p>
 
 
