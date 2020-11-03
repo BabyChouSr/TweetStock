@@ -8,6 +8,7 @@ Uses Twitter API for web scraping and Yahoo Finance stock prices for training da
 ### Positive Words
 <p float="left">
 <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/positivewordcloud.png" width = "300" height = "300">
+  ### Negative Words
   <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/negativewordcloud.png" width = "300" height = "300">
   <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/neutralwordcloud.png" width = "300" height = "300">
 </p>
