@@ -11,5 +11,8 @@ Uses Twitter API for web scraping and Yahoo Finance stock prices for training da
   <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/neutralwordcloud.png" width = "250" height = "250">
 </p>
 
+## Histogram Based on Sentiment Analysis
+<img src = "https://github.com/BabyChouSr/TweetStock/blob/main/commonwords.png">
+<img src = "https://github.com/BabyChouSr/TweetStock/blob/main/sentimentanalysis.png">
 
 
