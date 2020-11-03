@@ -6,8 +6,11 @@ Uses Twitter API for web scraping and Yahoo Finance stock prices for training da
 
 ## WordCloud Based on Sentiment Analysis
 ### Positive Words
-<img src = "https://github.com/BabyChouSr/TweetStock/blob/main/positivewordcloud.png">
-
+<p float="left">
+<img src = "https://github.com/BabyChouSr/TweetStock/blob/main/positivewordcloud.png" width = "300" height = "400">
+  <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/negativewordcloud.png">
+  <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/neutralwordcloud.png">
+</p>
 ### Negative Words
 
 <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/negativewordcloud.png">
