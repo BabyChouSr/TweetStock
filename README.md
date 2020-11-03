@@ -5,12 +5,6 @@ Deep learning model trained on past stock market prices and tweets in the same i
 Uses Twitter API for web scraping and Yahoo Finance stock prices for training data
 
 ## WordCloud Based on Sentiment Analysis
-<p float = "left">
-  Positive Words
-  </p>
-  <p float = "center">
-  Negative Words
-  </p>
 <p float="left">
 <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/positivewordcloud.png" width = "300" height = "300">
   <img src = "https://github.com/BabyChouSr/TweetStock/blob/main/negativewordcloud.png" width = "300" height = "300">
