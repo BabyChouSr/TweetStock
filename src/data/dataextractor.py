@@ -8,10 +8,12 @@ import json
 import os
 import time
 import requests
+from bs4 import BeautifulSoup
+
 # from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
 
-FIELDS = ['symbol', 'message', 'datetime', 'user', 'message_id']
-SYMBOL = "SPX"
+FIELDS = ['symbol', 'message', 'datetime', 'user', 'message_id', 'sentiment']
+SYMBOL = "AAPL"
 FILE_NAME = 'stocktwits_' + SYMBOL + '.csv'
 token = 0
 access_token = ['', 'access_token=32a3552d31b92be5d2a3d282ca3a864f96e95818&',
@@ -77,7 +79,19 @@ while True:
             obj['datetime'] = message['created_at']
             obj['user'] = message['user']['id']
             obj['message_id'] = message['id']
-
+            path = 'https://stocktwits.com/message/'
+            url = path + str(message['id'])
+            r = requests.get(url)
+            data = r.text
+            soup = BeautifulSoup(data)
+            mydivs = soup.findAll("div", {"class": "lib_XwnOHoV lib_3UzYkI9 lib_lPsmyQd lib_2TK8fEo"})
+            if len(mydivs) == 0:
+                obj['sentiment'] = 'N/A'
+            elif mydivs[0].text == 'Bullish':
+                obj['sentiment'] = '1'
+            elif mydivs[0].text == 'Bearish':
+                obj['sentiment'] = '0'
+            
             csvfile.writerow(obj)
             file.flush()
 
