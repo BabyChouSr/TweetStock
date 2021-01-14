@@ -1,6 +1,6 @@
 # TweetStock
 ## What it does
-Ongoing project utilizing sentiment analysis of tweets to forecast stock market pricing
+Ongoing project utilizing sentiment analysis of tweets to forecast stock market pricing <br>
 Deep learning model trained on past stock market prices and tweets in the same interval of time, using natural language processing and PyTorch
 Uses Twitter API for web scraping and Yahoo Finance stock prices for training data
 • A new stock market forecasting model utilizing sentiment analysis and attention mechanism is presented in this paper to forecast AAPL during the COVID-19 pandemic
